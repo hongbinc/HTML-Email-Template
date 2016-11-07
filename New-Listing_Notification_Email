@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+    <style>
+        @font-face {
+            font-family: "Interstate";
+            src: url(/fonts/Interstate-Regular.ttf) format("truetype");
+        }
+
+        @font-face {
+            font-family: "Interstate";
+            src: url(/fonts/Interstate-Bold.ttf) format("truetype");
+            font-weight: bold;
+        }
+
+        @media screen and (max-width: 767px) {
+            .content-container {
+                width: 100% !important;
+                padding: 0 !important;
+            }
+        }
+    </style>
+</head>
+
+<body style="width: 824px; max-width:100%;">
+    <div style=" width: 824px; overflow: hidden;">
+        <table style="font-family: 'Open Sans', Arial, sans-serif; color: #505050; font-size: 14px; line-height: 22px; margin: 0; padding: 0;">
+            <tr>
+                <td class="background-element" valign="top" align="left">
+                    <table class="content-container" style="width: 824px; max-width: 100%; max-height: 100%; padding-top: 50px; padding-left: 50px;">
+                        <tr>
+                            <td>
+                                <table cellpadding="0" cellspacing="0">
+                                    <tr>
+                                        <td>
+                                            <table cellpadding="0" cellspacing="0">
+                                                <tr>
+                                                    <td>
+                                                        <!-- Logo below will need to be dynamic based on brand -->
+                                                        <img width="200" alt="Corcoran Group Real Estate" src="https://gallery.mailchimp.com/68c2b576800b2ac46469b7a8c/images/9b5568af-4924-4c75-a00e-d11dc674ff3b.png" />
+                                                        <!-- Citi: <img width="200" alt="Corcoran Group Real Estate" src="https://gallery.mailchimp.com/68c2b576800b2ac46469b7a8c/images/89ce79fa-d9d9-41f2-a761-17efa0931c2e.png" /> -->
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <table cellpadding="0" cellspacing="0">
+                                    <tr>
+                                        <!-- Plug in Agent name -->
+                                        <td style="padding-top:20px; font-size:22px;">
+                                            Hi Jane Agent,
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding-top:20px;">
+                                            There is a new listing that matches your saved search:
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <!-- Plug in saved search description -->
+                                        <td style="padding-top:20px; font-weight:bold;">
+                                            360 1BR+ condos under $50,000,000
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <!-- Plug in Agent name and Email -->
+                                        <td style="color:#a2a2a2">
+                                            John Doe - john.doe@email.com
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width:506px; padding-top:20px;">
+                                            <hr style="border:solid 1px #d7d7d7;">
+                                        </td>
+                                    </tr>
+                                </table>
+
+                                <table cellpadding="0" cellspacing="0" style="margin-top:20px">
+                                    <tr>
+                                        <!-- Plug in listing address -->
+                                        <td style="font-size: 16px; text-transform:uppercase; color:#4c6b91; font-weight:bold;">
+                                            101 west 23rd street, 2E
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <!-- Plug in address detail -->
+                                        <td>
+                                            101 West 23rd St Co
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <!-- Plug in neighborhood & zip code -->
+                                        <td>
+                                            Chelsea (10011)
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="font-size:16px; font-weight:600; padding-top:6px;">
+                                            $45,322432
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            CONDO
+                                        </td>
+                                    </tr>
+                                </table>
+
+                                <table cellpadding="0" cellspacing="0" border="0">
+                                    <tr>
+                                        <td>
+                                            <!-- Plug in listing image url -->
+                                            <img width="251" height="185" style="display:block"
+                                                 src="https://mediarouting.vestahub.com/Media/52994105" />
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <!-- Plug in Apartment Info -->
+                                            <table style="border: 1px solid #E5E5E5; width: 252px;">
+                                                <tr>
+                                                    <td style="font-size: 14px; font-weight:600;">
+                                                        <img src="https://raw.githubusercontent.com/hongbinc/NewSearch_HTML-Email/master/Images/bed_icon.jpg" width="19" /> 2BD
+                                                    </td>
+                                                    <td style="font-size: 14px; font-weight:600;">
+                                                        <img src="https://raw.githubusercontent.com/hongbinc/NewSearch_HTML-Email/master/Images/shower_icon.jpg" width="19" /> 3BA
+                                                    </td>
+                                                    <td style="font-size: 14px; font-weight:600; padding-top: 4px;">
+                                                        <img src="https://raw.githubusercontent.com/hongbinc/NewSearch_HTML-Email/master/Images/couch_icon.jpg" width="19" /> 5RM
+                                                    </td>
+                                                    <td style="font-size: 14px; font-weight:600;">
+                                                        <img src="https://raw.githubusercontent.com/hongbinc/NewSearch_HTML-Email/master/Images/ruler_icon.jpg" width="19" /> 1,000SF
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+
+                                <table cellpadding="0" style="padding-top:40px">
+                                    <tr>
+                                        <td style="width:65px; vertical-align: top;">
+                                            <!-- Insert link and alt for agent photo below -->
+                                            <img width="65" alt="Paula Sweben Photo" src="https://gallery.mailchimp.com/68c2b576800b2ac46469b7a8c/images/fc9f5799-a27f-48ff-b5d8-8122f959be64.png" />
+                                        </td>
+                                        <td>&nbsp;&nbsp;</td>
+                                        <td>
+                                            <!-- Plug in agent data below -->
+                                            <p style="margin-top: 0; margin-bottom: 20px;">
+                                                <strong>Paula D. Sweben</strong>
+                                                <br />
+                                                <em>Exclusive Agent</em>
+                                            </p>
+                                            <p>
+                                                O:(212) 873-4025
+                                                <br />
+                                                O:(212) 555-1212
+                                                <br />
+                                                <a style="font-weight:bold; color: #5D7FA2; text-decoration: none;" href="mailto:pzweben@elliman.com">pzweben@elliman.com</a>
+                                            </p>
+
+                                        </td>
+                                    </tr>
+                                </table>
+
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
